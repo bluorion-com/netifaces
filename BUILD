@@ -21,7 +21,7 @@ py_binary(
         "//visibility:public",
     ],
     deps = [
-        "@pypi//setuptools:pkg",
-        "@pypi//wheel:pkg",
+        "@pip//setuptools:pkg",
+        "@pip//wheel:pkg",
     ],
 )
